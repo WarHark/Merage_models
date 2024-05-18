@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 **2 训练,train, you can use cifar_resnet_training (datasets:cifar10) or cifar5_resnet_training (datasets:cifar100)**
-
+数据集：cifar10 or cifar100
 ```
 nohup python -u -m non_imnet_training_scripts.cifar_resnet_training >> out.log 2>&1 & 
 ```
